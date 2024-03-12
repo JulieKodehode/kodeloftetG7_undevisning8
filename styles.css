@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+}
+
+/* PLACEHOLDER SIZE */
+img {
+    height: 200px;
+    width: 300px;
+}
+
+.imageCard {
+    border: 1px solid black;
+
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 10px;
+}
+
+.topSection {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.space {
+    margin-top: 80px;
+}
