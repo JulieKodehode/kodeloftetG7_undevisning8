@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
 }
@@ -6,6 +10,8 @@ body {
 img {
     height: 300px;
     width: 400px;
+
+    border-radius: 5%;
 }
 
 .header,
@@ -46,6 +52,7 @@ img {
     filter: blur(2px);
     transition: filter 0.9s ease;
 }
+
 .blur:hover {
     filter: blur(0);
 }
@@ -57,7 +64,7 @@ img {
         width: 300px;
     }   
 
-    .topSection {
+    .section {
         flex-direction: column;
     }
 
